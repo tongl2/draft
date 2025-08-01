@@ -1,6 +1,7 @@
 import argparse
 import json
 
+import mindspore
 from safetensors import safe_open
 from safetensors.numpy import save_file
 import numpy as np
